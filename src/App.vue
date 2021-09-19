@@ -7,17 +7,12 @@
 
 <script>
 
-import Dataviz from './components/nongeneric-components/Dataviz.vue';
+import Dataviz from './components/fonctionnal-components/Dataviz.vue';
 
 export default {
   name: 'App',
   components: {
     Dataviz,
-  },
-  data() {
-    return {
-      isUpdate: false,
-    };
   },
 };
 </script>

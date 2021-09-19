@@ -59,6 +59,7 @@
 import { mapGetters, mapActions } from 'vuex';
 import { cloneDeep } from 'lodash';
 import CustomButton from '../generic-components/Button.vue';
+import getMemberId from '../../shared/Mixins/getCardId';
 
 export default {
   name: 'CardFormular',
@@ -75,6 +76,7 @@ export default {
       default: 'update',
     },
   },
+  mixins: [getMemberId],
   data() {
     return {
       cloneInputs: {},
@@ -93,15 +95,6 @@ export default {
   },
   methods: {
     ...mapActions(['updateMembers', 'addMembers']),
-    getMemberId() {
-      let findId = false;
-      let memberId = 0;
-      do {
-        memberId += 1;
-        findId = this.getListOfMembersId.includes(memberId);
-      } while (!!findId);
-      return memberId;
-    },
     submitForm() {
       if (this.updateOrAdd === 'update') {
         this.updateMembers(this.cloneInputs);

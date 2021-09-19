@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1627989696900" clover="3.2.0">
-  <project timestamp="1627989696900" name="All files">
+<coverage generated="1628541020102" clover="3.2.0">
+  <project timestamp="1628541020102" name="All files">
     <metrics statements="52" coveredstatements="10" conditionals="6" coveredconditionals="0" methods="17" coveredmethods="2" elements="75" coveredelements="12" complexity="0" loc="52" ncloc="52" packages="3" files="8" classes="8"/>
     <package name="src">
       <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
@@ -16,9 +16,9 @@
         <line num="9" count="0" type="stmt"/>
       </file>
     </package>
-    <package name="src.components.nongeneric-components">
+    <package name="src.components.fonctionnal-components">
       <metrics statements="31" coveredstatements="10" conditionals="6" coveredconditionals="0" methods="7" coveredmethods="2"/>
-      <file name="CardFormular.vue" path="C:\formation\STOIC\team-members-project\src\components\nongeneric-components\CardFormular.vue">
+      <file name="CardFormular.vue" path="C:\formation\STOIC\team-members-project\src\components\fonctionnal-components\CardFormular.vue">
         <metrics statements="18" coveredstatements="3" conditionals="6" coveredconditionals="0" methods="4" coveredmethods="0"/>
         <line num="59" count="1" type="stmt"/>
         <line num="60" count="1" type="stmt"/>
@@ -39,24 +39,24 @@
         <line num="111" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="112" count="0" type="stmt"/>
       </file>
-      <file name="CardShowData.vue" path="C:\formation\STOIC\team-members-project\src\components\nongeneric-components\CardShowData.vue">
+      <file name="CardShowData.vue" path="C:\formation\STOIC\team-members-project\src\components\fonctionnal-components\CardShowData.vue">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="18" count="1" type="stmt"/>
         <line num="19" count="1" type="stmt"/>
       </file>
-      <file name="Dataviz.vue" path="C:\formation\STOIC\team-members-project\src\components\nongeneric-components\Dataviz.vue">
+      <file name="Dataviz.vue" path="C:\formation\STOIC\team-members-project\src\components\fonctionnal-components\Dataviz.vue">
         <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="24" count="0" type="stmt"/>
         <line num="25" count="0" type="stmt"/>
         <line num="26" count="0" type="stmt"/>
         <line num="27" count="0" type="stmt"/>
       </file>
-      <file name="VersoAddMemberCard.vue" path="C:\formation\STOIC\team-members-project\src\components\nongeneric-components\VersoAddMemberCard.vue">
+      <file name="VersoAddMemberCard.vue" path="C:\formation\STOIC\team-members-project\src\components\fonctionnal-components\VersoAddMemberCard.vue">
         <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="8" count="0" type="stmt"/>
         <line num="16" count="0" type="stmt"/>
       </file>
-      <file name="VersoCard.vue" path="C:\formation\STOIC\team-members-project\src\components\nongeneric-components\VersoCard.vue">
+      <file name="VersoCard.vue" path="C:\formation\STOIC\team-members-project\src\components\fonctionnal-components\VersoCard.vue">
         <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="18" count="1" type="stmt"/>
         <line num="19" count="1" type="stmt"/>

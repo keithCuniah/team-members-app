@@ -1,0 +1,31 @@
+Résumé : ceci est une application permettant de gérer les membres d'une équipe.
+
+Chaque membre a:
+ - un id (généré automatiquement)
+ - un nom
+ - un role
+ - une location (ville)
+
+Les membres sont représentés par une carte, qui se retourne en passant la souris dessus (hover)
+
+Une liste de membres initiale est hardcodé dans le store.
+
+Les features implémentés sont :
+ - l'ajout de membre => en remplissant le formulaire de la première carte puis en cliquant sur "Submit" 
+ - la mise à jour de membre => en cliquant sur le bouton "+" d'une carte d'un membre, la carte du membre se transforme en formulaire.
+    Si l'utilisateur clique sur le bouton "Cancel", la carte revient à l'état initial et les modifications en cours sont annulées
+ - la suppression de membre => en cliquant sur le bouton "Remove" de chaque carte de membre
+
+ La structure :
+ L'application est divisé en deux grandes parties :
+  - une partie composants fonctionnels : composants correspondant au besoin et donc non génériques
+  - une partie composants génériques : composants réutilisables qui prochainement seront transformés en plugin
+
+  Les Tests unitaires :
+  - Le socle de TU a été fait en Jest
+  - Le test écrit vérifie que lorsque l'utilisateur clique sur le bouton "+", un formulaire apparait pour modifier les caractéristiques du membre
+
+Prochainement : 
+ - compléter la couverture de TU en testant les features ajout/suppression/mise à jour de membre
+ - créer une directive pour le bouton "+"
+

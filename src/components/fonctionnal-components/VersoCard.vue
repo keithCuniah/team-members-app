@@ -1,10 +1,10 @@
 <template>
   <div class="verso-card">
     <div class="update-button">
-      <CustomButton @userClicked="showForm()">
+      <CustomButton @userClicked="showForm()" >
         <template v-slot:buttonLabel>
-          <span v-if="!isForm" style="fontSize:2rem; padding:0; width: 1em;">+</span>
-          <span v-else style="fontSize:2rem; padding:0; width: 1em;">-</span>
+          <span v-if="!isForm" v-openForm>+</span>
+          <span v-else v-openForm>-</span>
         </template>
       </CustomButton>
     </div>

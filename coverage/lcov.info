@@ -26,7 +26,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:C:\formation\STOIC\team-members-project\src\components\nongeneric-components\CardFormular.vue
+SF:C:\formation\STOIC\team-members-project\src\components\fonctionnal-components\CardFormular.vue
 FN:78,(anonymous_1)
 FN:87,(anonymous_2)
 FN:96,(anonymous_3)
@@ -67,7 +67,7 @@ BRF:6
 BRH:0
 end_of_record
 TN:
-SF:C:\formation\STOIC\team-members-project\src\components\nongeneric-components\CardShowData.vue
+SF:C:\formation\STOIC\team-members-project\src\components\fonctionnal-components\CardShowData.vue
 FNF:0
 FNH:0
 DA:18,1
@@ -78,7 +78,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:C:\formation\STOIC\team-members-project\src\components\nongeneric-components\Dataviz.vue
+SF:C:\formation\STOIC\team-members-project\src\components\fonctionnal-components\Dataviz.vue
 FNF:0
 FNH:0
 DA:24,0
@@ -91,7 +91,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:C:\formation\STOIC\team-members-project\src\components\nongeneric-components\VersoAddMemberCard.vue
+SF:C:\formation\STOIC\team-members-project\src\components\fonctionnal-components\VersoAddMemberCard.vue
 FN:15,(anonymous_1)
 FNF:1
 FNH:0
@@ -104,7 +104,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:C:\formation\STOIC\team-members-project\src\components\nongeneric-components\VersoCard.vue
+SF:C:\formation\STOIC\team-members-project\src\components\fonctionnal-components\VersoCard.vue
 FN:34,(anonymous_1)
 FN:40,(anonymous_2)
 FNF:2

@@ -1,6 +1,6 @@
-import VersoCard from '@/components/nongeneric-components/VersoCard.vue';
-import CardFormular from '@/components/nongeneric-components/CardFormular.vue';
-import CardShowData from '@/components/nongeneric-components/CardShowData.vue';
+import VersoCard from '@/components/fonctionnal-components/VersoCard.vue';
+import CardFormular from '@/components/fonctionnal-components/CardFormular.vue';
+import CardShowData from '@/components/fonctionnal-components/CardShowData.vue';
 import CustomButton from '@/components/generic-components/Button.vue';
 import { shallowMount } from '@vue/test-utils';
 
